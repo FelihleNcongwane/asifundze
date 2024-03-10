@@ -15,26 +15,26 @@
     </div>
 </div>
 
-    <form class="form" id="thediv" action="#" method="post">
+    <form class="form" id="thediv" action="../actions/register_action.php" method="post">
         <div class="signup-section">
             <div class="cntn1">
-                <label for="">First Name<sup title="This field is required">*</sup></label>
-                <input class="lbl1" type="text" name="firstname" id=""></input> 
+                <label for="firstname">First Name<sup title="This field is required">*</sup></label>
+                <input class="lbl1" type="text" name="firstname" id="firstname" required>
             </div>
             <div class="cntn1">
-                <label for="">Last Name<sup title="This field is required">*</sup></label>
-                <input class="lbl1" type="text" name="lastname" id=""></input>    
+                <label for="lastname">Last Name<sup title="This field is required">*</sup></label>
+                <input class="lbl1" type="text" name="lastname" id="lastname" required>
             </div>
         </div>
         <div class="signup-section">
             <div class="cntn1">
-                <label for="">Email<sup title="This field is required">*</sup></label>
-                <input class="lbl1" type="email" name="email" id=""></input>      
+                <label for="email">Email<sup title="This field is required">*</sup></label>
+                <input class="lbl1" type="email" name="email" id="email" required>
             </div>
             <div class="cntn1">
                 <div class="studDiv">
                 
-			<select name="facrrr" onchange="facchange2()" id="fac" class="lbl1" required="">
+			<select name="facrrr" onchange="facchange2()" id="fac" class="lbl1">
                 <option> Web Development</option>
                 <option> General Programming</option>
             </select>
@@ -44,25 +44,27 @@
 
         <div class="signup-section">
             <div class="cntn1">
-                <label for="">Password<sup title="This field is required. It must be at least 4 characters long.">*</sup></label>
-                <input class="lbl1" type="password" name="password" id=""></input>
+                <label for="password">Password<sup title="This field is required. It must be at least 4 characters long.">*</sup></label>
+                <input class="lbl1" type="password" name="password" id="password" pattern=".{4,}" required >
             </div>
             <div class="cntn1">
-                <label for="">Level</label>
+                <label for="Level">Level</label>
                 <select name="level" id="Level" class="lbl1">
-                    <option selected value="1">Beginner</option><option value="2">Intermediate</option><option value="3">Advanced</option>
+                    <option selected value="1">Beginner</option>
+                    <option value="2">Intermediate</option>
+                    <option value="3">Advanced</option>
                 </select>
             </div>
         </div> 
         <div class="signup-section">
             <div class="cntn1">
-                <label for="">Re-Type Password<sup title="This field is required. It must be at least 4 characters long.">*</sup></label>
-                <input class="lbl1" type="password" name="password" id=""></input>
+                <label for="confirm_password">Re-Type Password<sup title="This field is required. It must be at least 4 characters long.">*</sup></label>
+                <input class="lbl1" type="password" name="confirm_password" id="confirm_password" pattern=".{4,}" required>
             </div>
             <div class="cntn1">
             <div class="lbl2">
             </div>
-            
+
             </div>
         </div>
         <div class="signup-section">
@@ -70,11 +72,9 @@
                 <input type="submit" class="lbl1" name="signup" value="Signup" id="submit1">       
             </div>
         </div>
-                    </div>
     </form>
     <div class="notyet">
         <p>Already have an account? <a href="login.html">Log In here</a></p>
-        
     </div>
 
 </body>
