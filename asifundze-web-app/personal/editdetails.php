@@ -2,9 +2,6 @@
 session_start();
 include '../config/core.php';
 check_login();
-echo $_SESSION['error'];
-echo "<br>";
-echo $_SESSION['success'];
 ?>
 
 <!DOCTYPE html>
@@ -65,7 +62,7 @@ echo $_SESSION['success'];
         <hr>
         <h4 class="deleted">Delete Account</h4>
         <p>Do you wish to permanently delete this account? If you click the button below, your account will be deleted from the database and there will be no way to restore your account.</p>
-        <a href="../actions/editdetails_action.php?delete_val=1"><button type="submit" class="same redbttn" name="deletebtn">Delete Account</button></a>
+        <a href="../actions/editdetails_action.php?id=<?php echo $_SESSION['uid'];?>"><button type="submit" class="same redbttn" name="deletebtn">Delete Account</button></a>
     </div>
 </div>
 </body>

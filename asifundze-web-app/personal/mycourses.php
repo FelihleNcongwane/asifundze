@@ -2,7 +2,6 @@
 include '../config/core.php';
 check_login();
 session_start();
-
 ?>
 
 <!DOCTYPE html>

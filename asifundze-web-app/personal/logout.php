@@ -2,6 +2,8 @@
     include '../config/core.php';
     include '../config/connection.php';
     global $conn;
+    session_unset();
+    mysqli_close($conn);
 ?>
 
 <!DOCTYPE html>
@@ -28,8 +30,6 @@
 <img class="lkl" src="../images/z8.jpg" alt="">
 </div> -->
 <?php
-    session_destroy();
-    mysqli_close($conn);
     echo '<meta http-equiv="refresh" content="5 url=../index.html">';
     ?>
 </body>

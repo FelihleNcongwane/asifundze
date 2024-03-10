@@ -1,7 +1,17 @@
 <?php
 
 include '../config/connection.php';
+include '../config/core.php';
 global $conn;
+
+if(isset($_GET['id'])){
+    $sql = "DELETE FROM Users WHERE id = '$_SESSION[uid]'";
+    if(mysqli_query($conn, $sql)) {
+        logout_user();
+    }
+    exit();
+}
+
 
 // Edit the user details and update the database
 if(isset($_POST['updatebtn'])){
@@ -76,20 +86,4 @@ if(isset($_POST['updatebtn'])){
         header('Location: ../personal/dashboard.php');
         exit();
     }
-}
-
-
-// Delete the user's details
-if(isset($_GET['delete_val'])){
-    $sql = "DELETE FROM Users WHERE id = '$_SESSION[uid]'";
-//    if(mysqli_query($conn, $sql)) {
-//        $_SESSION['success'] = "Account deleted successfully";
-//        logout_user();
-//    }
-    echo $_SESSION["uid"];
-    echo "Failed to delete account";
-    $_SESSION['error'] = "Failed to delete account";
-//    header('Location: ../personal/editdetails.php');
-
-    exit();
 }
