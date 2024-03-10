@@ -39,7 +39,7 @@ if (isset($_POST['signup'])) {
                 VALUES ('$firstname', '$lastname', '$email', '$hashed_password', $level)";
         if ($result = mysqli_query($conn, $sql)) {
             $_SESSION['success'] = "Account created successfully";
-            header('location: ../user/login.html');
+            header('location: ../user/login.php');
         } else {
             $_SESSION['error'] = "Failed to create account";
             header('location: ../user/signup.html');

@@ -19,7 +19,7 @@ if(isset($_POST['login'])){
             header('Location: ../personal/dashboard.html');
         }else{
             $_SESSION['error'] = "Invalid email or password";
-            header('Location: ../user/login.html');
+            header('Location: ../user/login.php');
         }
         exit();
     }
