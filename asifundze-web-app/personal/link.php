@@ -1,22 +1,32 @@
+<?php
+include '../config/core.php';
+check_login();
+session_start();
 
-<link rel="stylesheet" href="../style/style2.css">
-<link rel="shortcut icon" href="../images/z2.png" type="image/x-icon">
-<title>Material</title>
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../style/style2.css">
+    <link rel="shortcut icon" href="../images/z2.png" type="image/x-icon">
+    <title>Material</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <div class="container2">
-    
+
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js">
  </script>
 
 <div class="one left">
-            <a href="allcourses.html"><div class="brand"><h4 class="h4">asifundze</h4></div></a>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+            <a href="allcourses.php"><div class="brand"><h4 class="h4">asifundze</h4></div></a>
             <ul>
                 <a href="dashboard.php"><li class="left-section"><img src="../icons/home.svg">Dashboard</li></a>
-                <a href="mycourses.html"><li class="left-section"><img src="../icons/menubook.svg">My Courses</li></a>
-                <a href="allcourses.html"><li class="left-section selection"><img class="blue" src="../icons/librarybooks.svg">All Courses</li></a>
-                <a href="search.html"><li class="left-section"><img src="../icons/search.svg">Search List</li></a>
-                <a href="editdetails.html"><li class="left-section"><img src="../icons/editn.svg">Edit Profile</li></a>
-                <a href="logout.html"><li class="left-section Settings"><img src="../icons/logout.svg">Log Out</li></a>
+                <a href="mycourses.php"><li class="left-section"><img src="../icons/menubook.svg">My Courses</li></a>
+                <a href="allcourses.php"><li class="left-section selection"><img class="blue" src="../icons/librarybooks.svg">All Courses</li></a>
+                <a href="search.php"><li class="left-section"><img src="../icons/search.svg">Search List</li></a>
+                <a href="editdetails.php"><li class="left-section"><img src="../icons/editn.svg">Edit Profile</li></a>
+                <a href="logout.php"><li class="left-section Settings"><img src="../icons/logout.svg">Log Out</li></a>
             </ul>
         </div>
     <div class="one center coursedetails">
@@ -41,26 +51,27 @@
                 </div>
             </div>
 
-</head>
-
 <body>
 <div class="wrapper">
 <div class="profile">
 <div id= "userdata" border="2">
 </div>
 </div>
-<?html 
+<?php
+    $rtr='';
     $fil = '../material/' .$rtr .'/' .$rtr .'.xml';
     $filename = fopen($fil, 'r') or die ("weakness" );
     while(!feof($filename)){
         $line = fgets($filename);
         echo $line;
     }
-    fclose($filename);
-}}
-    else{
-        header("location:/vent/personal/allcourses.html");
-    }
-    
+//    fclose($filename);
+//    else{
+//        header("location:allcourses.php");
+//    }
+//    }
+
 ?><br><br><br>
 </div></div>
+</div>
+</html>

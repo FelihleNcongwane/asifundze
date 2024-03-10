@@ -7,3 +7,9 @@ function check_login(){
         exit();
     }
 }
+
+function logout_user(){
+    session_unset();
+    header('Location: ../personal/logout.php');
+    exit();
+}

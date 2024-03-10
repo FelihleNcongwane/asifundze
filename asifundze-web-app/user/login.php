@@ -1,6 +1,5 @@
 <?php
 include '../config/core.php';
-check_login();
 ?>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">

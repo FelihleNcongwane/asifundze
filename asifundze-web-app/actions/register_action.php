@@ -4,8 +4,8 @@ session_start();
 include '../config/connection.php';
 global $conn;
 
-
 if (isset($_POST['signup'])) {
+    $_SESSION['error'] = "";
     $firstname = $_POST['firstname'];
     $lastname = $_POST['lastname'];
     $email = $_POST['email'];
@@ -33,7 +33,8 @@ if (isset($_POST['signup'])) {
         exit();
     }
 
-    if ($password == $confirm_password && strlen($password) >= 8){
+    // Password verification: Only checking the length as per the html requirements
+    if ($password == $confirm_password && strlen($password) >= 4){
         $hashed_password = password_hash($password, PASSWORD_DEFAULT);
         $sql = "INSERT INTO Users (first_name, last_name, email, password, level)
                 VALUES ('$firstname', '$lastname', '$email', '$hashed_password', $level)";

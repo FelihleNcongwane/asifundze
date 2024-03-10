@@ -1,7 +1,13 @@
-<link rel="stylesheet" href="../style/style2.css">
+<?php
+    include '../config/core.php';
+    include '../config/connection.php';
+    global $conn;
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="../style/style2.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" href="../images/z2.png" type="image/x-icon">

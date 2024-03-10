@@ -18,6 +18,7 @@ if(isset($_POST['login'])){
             $_SESSION['uid'] = $row['id'];
             $_SESSION['first_name'] = $row['first_name'];
             $_SESSION['last_name'] = $row['last_name'];
+            $_SESSION['email'] = $row['email'];
             header('Location: ../personal/dashboard.php');
         }else{
             $_SESSION['error'] = "Invalid email or password";

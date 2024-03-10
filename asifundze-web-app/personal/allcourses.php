@@ -1,15 +1,24 @@
+<?php
+include '../config/core.php';
+check_login();
+session_start();
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
 <link rel="stylesheet" href="../style/style2.css">
 <link rel="stylesheet" href="../style/allcourses.css">
-
 <!-- <link rel="stylesheet" href="../style/bootstrap.css"> -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 <title>All courses</title>
 <link rel="shortcut icon" href="../images/z2.png" type="image/x-icon">
+</head>
 
 <body>
     <div class="container1 container2">
         <div class="one left">
-            <a href="../personal/allcourses.html">
+            <a href="allcourses.php">
                 <div class="brand">
                     <h4 class="h4">asifundze</h4>
                 </div>
@@ -18,19 +27,19 @@
                 <a href="dashboard.php">
                     <li class="left-section "><img src="../icons/home.svg">Dashboard</li>
                 </a>
-                <a href="../personal/mycourses.html">
+                <a href="mycourses.php">
                     <li class="left-section"><img src="../icons/menubook.svg">My Courses</li>
                 </a>
-                <a href="../personal/allcourses.html">
+                <a href="allcourses.php">
                     <li class="left-section selection"><img class="blue" src="../icons/librarybooks.svg">All Courses</li>
                 </a>
-                <a href="../personal/search.html">
+                <a href="search.php">
                     <li class="left-section"><img src="../icons/search.svg">Search List</li>
                 </a>
-                <a href="../personal/editdetails.html">
+                <a href="editdetails.php">
                     <li class="left-section"><img src="../icons/editn.svg">Edit Profile</li>
                 </a>
-                <a href="../personal/logout.html">
+                <a href="logout.php">
                     <li class="left-section Settings"><img src="../icons/logout.svg">Log Out</li>
                 </a>
 
@@ -86,3 +95,4 @@
 
     </div>
 </body>
+</html>

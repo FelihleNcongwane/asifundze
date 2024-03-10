@@ -17,18 +17,19 @@ check_login();
     <title>Dashboard</title>
 </head>
 
+
 <body>
 <div class="container1">
     <div class="one left">
         <a href="../index.html"><div class="brand"><h4 class="h4">asifundze</h4></div></a>
 
         <ul>
-            <a href="dashboard.html"><li class="left-section selection"><img class="blue" src="../icons/home.svg">Dashboard</li></a>
-            <a href="mycourses.html"><li class="left-section"><img src="../icons/menubook.svg">My Courses</li></a>
-            <a href="allcourses.html"><li class="left-section"><img src="../icons/librarybooks.svg">All Courses</li></a>
-            <a href="search.html"><li class="left-section"><img src="../icons/search.svg">Search List</li></a>
-            <a href="editdetails.html"><li class="left-section"><img src="../icons/editn.svg">Edit Profile</li></a>
-            <a href="logout.html"><li class="left-section Settings"><img src="../icons/logout.svg">Log Out</li></a>
+            <a href="dashboard.php"><li class="left-section selection"><img class="blue" src="../icons/home.svg">Dashboard</li></a>
+            <a href="mycourses.php"><li class="left-section"><img src="../icons/menubook.svg">My Courses</li></a>
+            <a href="allcourses.php"><li class="left-section"><img src="../icons/librarybooks.svg">All Courses</li></a>
+            <a href="search.php"><li class="left-section"><img src="../icons/search.svg">Search List</li></a>
+            <a href="editdetails.php"><li class="left-section"><img src="../icons/editn.svg">Edit Profile</li></a>
+            <a href="logout.php"><li class="left-section Settings"><img src="../icons/logout.svg">Log Out</li></a>
         </ul>
     </div>
     <div class="one center overall">
@@ -52,7 +53,7 @@ check_login();
                     </span>
                 </span>
                 <span class='lst_read_content_text'>
-                    <span class='links_to_text'><a href='./link.html?aq=$codeinsmall'>Continue Reading</a></span>
+                    <span class='links_to_text'><a href='link.php?aq=$codeinsmall'>Continue Reading</a></span>
                 </span>
             </h5>
         </div>
