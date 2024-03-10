@@ -16,7 +16,9 @@ if(isset($_POST['login'])){
 
         if(password_verify($password, $hash)){
             $_SESSION['uid'] = $row['id'];
-            header('Location: ../personal/dashboard.html');
+            $_SESSION['first_name'] = $row['first_name'];
+            $_SESSION['last_name'] = $row['last_name'];
+            header('Location: ../personal/dashboard.php');
         }else{
             $_SESSION['error'] = "Invalid email or password";
             header('Location: ../user/login.php');

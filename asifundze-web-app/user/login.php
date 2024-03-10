@@ -56,7 +56,7 @@ check_login();
                 </form>
                 <div class="notyet">
                     <p>Don't have an account? <a href="signup.html">Sign up here</a></p>
-                    <p class="repoDash"><a href="../personal/dashboard.html">Visit Dashboard</a></p>
+                    <p class="repoDash"><a href="../personal/dashboard.php">Visit Dashboard</a></p>
                 </div>
             </div>
         </div>
