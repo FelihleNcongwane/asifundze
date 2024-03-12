@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Multipage Website using HTML, CSS & JavaScript</title>
+    <title>ASIFUNDZE</title>
 
     <!-- ICONSCOUT CDN -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
@@ -15,16 +15,15 @@
 rel="stylesheet">
 
 
-
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/contact.css">
 </head>
 <body>
     <nav>
         <div class="container nav__container">
-            <a href="index.html"><h4>asifundze</h4></a>
+            <a href="../index.html"><h4>asifundze</h4></a>
             <ul class="nav__menu">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="../index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -37,59 +36,65 @@ rel="stylesheet">
 
 
 
-<section class="about__milestone">
-    <div class="container about__milestone-container">
-        <div class="about_milestone-left">
-            <img src="./images/About.jpg" alt="">
-        </div>
-        <div class="about_milestone-right">
-            <h1>About Us</h1>
-            <p>
-                Asifundze is a learning plartform that teaches the basics of web 
-                development with the focus of learning byt doing.
-            </p>
-            <div class="about__cards">
-                <article class="about__card">
-                    <span class="about__icon">
-                        <i class="uil uil-video"></i>
-                    </span>
-                    <h3>10</h3>
-                    <p>Lecturers</p>
-                </article>
-
-                <article class="about__card">
-                    <span class="about__icon">
-                        <i class="uil uil-users-alt"></i>
-                    </span>
-                    <h3>10+</h3>
-                    <p>
-                        Mentors
-                    </p>
-                </article>
-
-                <article class="about__card">
-                    <span class="about__icon">
-                        <i class="uil uil-trophy"></i>
-                    </span>
-                    <h3>A</h3>
-                    <p>Certificate</p>
-                </article>
+<section class="contact">
+    <div class="container contact__container">
+        <aside class="contact__aside">
+            <div class="aside__image">
+                <img src="../images/contactus.svg">
             </div>
-        </div>
+            <h2>Contact Us</h2>
+            <p>Contact us today to see how you can get involved.
+            </p>
+            <ul class="contact__details">
+                <li>
+                    <i class="uil uil-phone-times"></i>
+                    <h5>+233 1234 567 890</h5>
+                </li>
+                <li>
+                    <i class="uil uil-envelope"></i>
+                    <h5>asifundze@gmail.com</h5>
+                </li>
+                <li>
+                    <i class="uil uil-location-point"></i>
+                    <h5>Ashesi, Ghana</h5>
+                </li>
+            </ul>
+            <ul class="contact__socials">
+                <li>
+                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="uil uil-instagram-alt"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="uil uil-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+                </li>
+            </ul>
+        </aside>
+
+
+
+        <form action="https://formspree.io/f/moqzgnwn" method="POST" class="contact__form">
+            <div class="form__name">
+                <input type="text" name="First Name" placeholder="First Name" required>
+                <input type="text" name="Last Name" placeholder="Last Name" required>
+            </div>
+            <input type="email" name="Email Address" placeholder="Email Address" required>
+            <textarea name="Message" rows="7" placeholder="Message" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
     </div>
 </section>
-<!--======================= END OF NAVBAR
-========================-->
 
 
-
-
-
-
+<!---------------------FOOTER------------------------->
 <footer>
     <div class="container footer__container">
         <div class="footer__1">
-            <a href="index.html" class="footer__logo"><h4>Learn By Doing</h4></a>
+            <a href="../index.html" class="footer__logo"><h4>Learn By Doing</h4></a>
             <p>
                 From experiential learning to applying your skills in real world projects.
             </p>
@@ -98,7 +103,7 @@ rel="stylesheet">
         <div class="footer__2">
             <h4>Permalinks</h4>
             <ul class="permalinks">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="../index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -141,7 +146,7 @@ rel="stylesheet">
 
 
 
-<script src="./main.js"></script>
+<script src="../js/main.js"></script>
 
 </body>
 </html>
