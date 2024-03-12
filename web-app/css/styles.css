@@ -164,6 +164,7 @@ header{
     outline: none;
     transition: .2s ease;
 }
+
 .input-field:hover, .input-field:focus{
     background: rgba(255, 255, 255, 0.25);
 }
