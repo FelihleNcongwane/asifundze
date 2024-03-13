@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,12 +14,8 @@
 <body>
  <div class="wrapper">
     <nav class="nav">
-    <?php
-    session_start();
-    echo $_SESSION['error'];
-    echo "NO";
-    ?>
         <div class="nav-logo">
+            <p><?php echo $_SESSION['error']; ?></p>
             <p>asifundze</p>
         </div>
         <div class="nav-menu" id="navMenu">
@@ -48,15 +47,15 @@
                     <header>Login</header>
                 </div>
                 <div class="input-box">
-                    <input type="text" class="input-field" placeholder="Email" required>
+                    <input type="email" class="input-field" placeholder="Email" required name="login-email">
                     <i class="bx bx-user"></i>
                 </div>
                 <div class="input-box">
-                    <input type="password" class="input-field" placeholder="Password">
+                    <input type="password" class="input-field" placeholder="Password" name="login-pwd">
                     <i class="bx bx-lock-alt"></i>
                 </div>
                 <div class="input-box">
-                    <input type="submit" class="submit" value="Sign In">
+                    <input type="submit" class="submit" value="Sign In" name="login-submit">
                 </div>
                 <div class="two-col">
                     <div class="one">

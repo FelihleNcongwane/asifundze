@@ -13,7 +13,7 @@ if (isset($_POST['register-submit'])){
     $confirm_password = $_POST['confirm-pwd'];
 
     if (empty($firstname) || empty($lastname) || empty($email) || empty($password) || empty($confirm_password)){
-        $_SESSION['error'] = "All fields";
+        $_SESSION['error'] = "All fields are required";
         header("Location: ../login/login.php");
         exit();
     }
@@ -36,7 +36,7 @@ if (isset($_POST['register-submit'])){
     }
     else {
         $sql = "INSERT INTO users (email, first_name, last_name, password) 
-                VALUES ('$firstname', '$lastname', '$email', '$password')";
+                VALUES ('$email', '$firstname', '$lastname', '$password')";
         if (mysqli_query($conn, $sql)){
             $_SESSION['success'] = "Registration successful";
         }
