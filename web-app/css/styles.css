@@ -150,7 +150,7 @@ header{
 }
 .two-forms{
     display: flex;
-    gap: 10px;
+    gap: 30px;
 }
 .input-field{
     font-size: 15px;
