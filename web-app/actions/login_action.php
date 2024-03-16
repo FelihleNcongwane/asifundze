@@ -34,7 +34,7 @@ if (isset($_POST['login-submit'])){
             echo '<script>window.location.href="../login/login.php";</script>';
         } else {
             $_SESSION['uid'] = $row['id'];
-            header("Location: ../user/discussions.html");
+            header("Location: ../user/discussions.php");
         }
     }
     exit();
