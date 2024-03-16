@@ -4,7 +4,6 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title> Discussion Page</title>
-      <link rel="stylesheet" href="../css/style.css">
       <link rel="stylesheet" href="../css/discussion.css">
    </head>
    <body>
@@ -21,27 +20,6 @@
                <div class="header-dropdown">
                    <div class="panel">
                        <ul>
-                           <li>
-                               <h2>Activity Title</h2>
-                               <span>2/4</span>
-                               <div class="progress">
-                                   <div class="progress__complete"></div>
-                               </div>
-                           </li>
-                           <li>
-                               <h2>Activity Title</h2>
-                               <span>2/4</span>
-                               <div class="progress">
-                                   <div class="progress__complete"></div>
-                               </div>
-                           </li>
-                           <li>
-                               <h2>Activity Title</h2>
-                               <span>2/4</span>
-                               <div class="progress">
-                                   <div class="progress__complete"></div>
-                               </div>
-                           </li>
                            <li>
                                <h2>Activity Title</h2>
                                <span>2/4</span>
