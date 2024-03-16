@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+  }
+  
+  .profile-info,.courses {
+    flex: 1;
+    padding: 50px;
+    flex-direction: column; 
+  }
+
+  .profile ,.courses{
+    padding: 50px;
+  }
+  
+  .profile img {
+    width: 460px;
+    height: 345px;
+  }
+  
+  .profile-info h1,
+  .profile-info p
+   {
+    text-align: left;
+  }
+  
+  .footer {
+    margin-top: 50px;
+  }
+  
