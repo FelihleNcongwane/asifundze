@@ -328,6 +328,7 @@ ul {
   height: 100%;
   padding: 15px 15px 15px 65px;
   background-color: var(--color-bg2);
+  margin: 2vw;
 }
 .comment-form textarea {
   color: black;
@@ -338,9 +339,7 @@ ul {
   border: 1px solid #cdd7dc;
   border-radius: 2px;
   box-shadow: 0 1px 1px #ebeff1 inset;
-}
-.comment-form textarea:focus {
-  outline: none;
+  resize: vertical;
 }
 
 .comment-form__avatar {

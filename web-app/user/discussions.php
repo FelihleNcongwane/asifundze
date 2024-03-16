@@ -67,12 +67,15 @@
                                            <p class="post__body">I am the coder!</p></div>
                                    </div>
                                    <div class="comment-form">
-                                       <div class="comment-form__avatar"></div>
-                                       <textarea></textarea>
-                                       <div class="comment-form__actions">
-                                           <div class="button button--light cancel">Cancel</div>
-                                           <div class="button button--confirm">Comment</div>
-                                       </div>
+                                       <form method="post" action="../actions/add_comment_action.php">
+                                           <div class="comment-form__avatar"></div>
+                                           <label for="comment-content">
+                                               <textarea name="comment-content" id="comment-content"></textarea>
+                                           </label>
+                                           <div class="comment-form__actions">
+                                               <input type="button" name="comment-cancel" class="button button--light cancel" value="Cancel">
+                                               <input type="submit" name="comment-submit" class="button button--confirm" value="Comment">
+                                       </form>
                                    </div>
                                </div>
                            </div>
