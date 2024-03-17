@@ -29,7 +29,7 @@ include '../core/check_login.php';
             </p>
             <p>
                 <label for="bio">Bio:</label>
-                <textarea id="bio"></textarea>
+                <input type="bio" id="fullName" value="{{Bio}}">
             </p>
             <h1>Enrolled Courses</h1>
             <ul>
@@ -90,24 +90,3 @@ include '../core/check_login.php';
   </footer>
 </body>
 </html>
-
-
-<div id="edit-profile-form" class="dialog-box">
-    <h1>Edit Profile</h1>
-    <p>
-        <label for="username">Username:</label>
-        <input type="text" id="username" value="{{username}}">
-    </p>
-    <p>
-        <label for="password">Password:</label>
-        <input type="password" id="password">
-    </p>
-    <p>
-        <label for="fullName">Full Name:</label>
-        <input type="text" id="fullName" value="{{fullName}}">
-    </p>
-    <p class="buttons">
-        <a href="#" class="button" id="editProfileButton">Edit</a>
-        <a href="#/home/" class="button">Cancel</a>
-    </p>
-</div>
