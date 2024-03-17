@@ -101,7 +101,7 @@ echo '</pre>';
 			
 			</div>
 		</div>
-		
+		<?php include "sidebar.php"; ?>
 
 	<br>
 	<br>

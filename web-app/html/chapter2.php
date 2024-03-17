@@ -72,6 +72,7 @@ echo '</pre>';
 			</div>
 		</div>
 	</div>
+	<?php include "sidebar.php"; ?>
 		
 	</div style="text-align: center;">>
 	<br>
