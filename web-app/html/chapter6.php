@@ -171,8 +171,6 @@ echo '</pre>';
 	</div>
 
 	<br>
-	<br>
-	<br>
 <a href="../htmlexamination/index.php" class="btn">Next</a>
 </body>
 </html>

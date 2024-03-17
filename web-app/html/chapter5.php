@@ -92,11 +92,8 @@ echo '</pre>';
 		</div>
 	</div>
 
-	
-
 <br>
-	<br>
-	<br>
+	
 <a href="chapter6.php" class="btn">Next</a>
 </body>
 </html>

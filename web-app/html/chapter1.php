@@ -104,8 +104,7 @@ echo '</pre>';
 		<?php include "sidebar.php"; ?>
 
 	<br>
-	<br>
-	<br>
+	
 <a href="chapter2.php" class="btn">Next</a>
 
 </body>

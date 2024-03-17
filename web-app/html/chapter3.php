@@ -86,8 +86,6 @@ echo '</pre>';
 		<?php include "sidebar.php"; ?>
 
 	<br>
-	<br>
-	<br>
 	
 <a href="chapter4.php" class="btn">Next</a>
 
