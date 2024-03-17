@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `discussions` (
     `dislikes` int(10) DEFAULT 0,
     PRIMARY KEY (`id`),
     KEY `user_id` (`user_id`),
-    FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)
+    FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 
@@ -40,8 +40,8 @@ CREATE TABLE IF NOT EXISTS `replies` (
     PRIMARY KEY (`id`),
     KEY `user_id` (`user_id`),
     KEY `post_id` (`post_id`),
-    FOREIGN KEY (`user_id`) REFERENCES `users` (`id`),
-    FOREIGN KEY (`post_id`) REFERENCES `discussions` (`id`)
+    FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE,
+    FOREIGN KEY (`post_id`) REFERENCES `discussions` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 

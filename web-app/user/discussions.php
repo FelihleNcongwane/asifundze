@@ -1,5 +1,6 @@
 <?php
     session_start();
+    include '../settings/connection.php';
     include '../actions/get_comments_action.php';
     global $posts, $comment_count;
 ?>
@@ -11,6 +12,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title> Discussion Page</title>
       <link rel="stylesheet" href="../css/discussion.css">
+       <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
    </head>
    <body>
    <main class="cd__main">
@@ -37,15 +39,31 @@
                    </div>
                </div>
                <div class="response">
-                   <div class="response__number"><?php echo $comment_count;?></div>
+                   <div class="response__number" id="comment_counter"></div>
                    <h1 class="response__title">Emma the Coder!</h1>
-                   <div class="post-group">
+                   <div class="post-group" id="post-group-content">
                         <?php echo $posts; ?>
                    </div>
                </div>
            </div>
        </div>
    </main>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script>
+       let comment = document.getElementById('comment-content').value;
+
+       // update comment counter with ajax
+         $(document).ready(function(){
+              $.ajax({
+                url: '../functions/get_comment_count.php',
+                type: 'POST',
+                success: function(data){
+                     $('#comment_counter').html(data);
+                }
+              });
+         });
+
+   </script>
    <script src="../js/script.js"></script>
    </body>
 </html>

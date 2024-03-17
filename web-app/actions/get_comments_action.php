@@ -39,9 +39,11 @@ while ($row = $result->fetch_assoc()) {
                                <div class="post__actions">
                                    <div class="button button--approve">
                                        <i class="fa fa-thumbs-o-up"></i><i class="fa fa-thumbs-up solid"></i>
+                                       <span id="thumbs-up-count" class="like_count">'.$comment_likes.'</span>
                                    </div>
                                    <div class="button button--deny">
                                        <i class="fa fa-thumbs-o-down"></i><i class="fa fa-thumbs-down solid"></i>
+                                       <span id="thumbs-down-count" class="like_count">'.$comment_dislikes.'</span>
                                    </div>
                                    <div class="button button--fill comment-trigger">
                                        <span>View comments...</span>
@@ -106,18 +108,17 @@ while ($row = $result->fetch_assoc()) {
 
     $posts.= "<div class='post'>
                    <div class='comment-form'>
-                       <form method='post' action='../actions/add_comment_action.php'>
+                       <form id='comment-form' method='post' action='../actions/add_comment_action.php'>
                            <div class='comment-form__avatar'></div>
                            <label for='comment-content'>
                                 <textarea name='comment-content' id='comment-content'></textarea>
                            </label>
                                 <div class='comment-form__actions'>
-                                    <input type='submit' name='comment-submit' class='button button--confirm' value='Comment'>
+                                    <input type='submit' id='comment-submit' name='comment-submit' class='button button--confirm' value='Comment'>
                                     <input type='button' name='comment-cancel' class='button button--light cancel' value='Cancel'>
                        </form>
                                 </div>
                    </div>
                </div>";
-
 
 

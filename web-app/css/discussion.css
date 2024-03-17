@@ -125,9 +125,31 @@ ul {
   z-index: 100;
 }
 
+.response__number {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  line-height: 1.8rem;
+  font-size: 1.2em;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  border: 2px solid #cdd7dc;
+  border-radius: 50%;
+}
+
+.response__title {
+  margin-left: 3.25rem;
+  margin-bottom: 50px;
+}
+
 #heading{
   background-color: transparent;
   height: 5vh;
+}
+
+.likes_count{
+  margin-left: 0.1rem;
 }
 
 .response-group > header i {
@@ -238,7 +260,7 @@ ul {
   margin-bottom: 50px;
   margin-right: 20px;
   border: 1px solid black;
-
+  color: white;
   /*box-shadow: 0 2px 1px black;*/
 }
 
@@ -252,6 +274,7 @@ ul {
 }
 
 .post__actions {
+  color: black;
   height: 40px;
   width: calc(100% + 95px);
   margin-left: -80px;
