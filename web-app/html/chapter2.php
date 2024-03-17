@@ -1,5 +1,5 @@
 <?php
-include '../core/.php';
+include '../core/check_login.php';
 @check_login();
 ?>
 <html>
