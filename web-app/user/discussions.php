@@ -44,7 +44,7 @@
            <div class="response-group">
                <header id="heading">
                    <h2>
-                       <a href="../" style="text-decoration: none;"><strong>HTML</strong></a>
+                       <a href="../" style="text-decoration: none; color:white;"><strong>HTML</strong></a>
 <!--                       <i class="fa fa-angle-right"></i>-->
 <!--                       <span class="header-dropdown-trigger">HTML Tags</span>-->
                    </h2>
