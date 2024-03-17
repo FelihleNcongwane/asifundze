@@ -1,16 +1,8 @@
-<?php
-include '../core/check_login.php';
-@check_login();
-$_SESSION['course'] = 1;
-?>
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" type="text/css" href="design.css">
-<link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
-
 <head>
 	<meta charset="utf-8">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 <?php
@@ -35,8 +27,8 @@ $_SESSION['course'] = 1;
 			<div class="col-md-6">
 			<textarea rows="10" cols="70" class="form-control,text_edit" 
 			placeholder="Run Code here" name="message" id="my_text"
-			maxlength="999" style="resize:none;margin-top:10px"></textarea>
-			<br><br>		
+			maxlength="999" style="resize:none;margin-top:10px"></textarea>   
+			<br><br>
 			<input type="submit" value="Run" class= "btn" onclick="view_text()">
 <!-- Empty div to put the text in -->
 <div id="view_text">
@@ -53,17 +45,11 @@ text =textArea.value;
 }
 </script>
 </div>
-		</div>  
-		</div>
-	</div>
+</div>
+</div>
+</div>
 <br>
-
 
 </body>
 </html>
-
-
-
-
-
-
+</div>
