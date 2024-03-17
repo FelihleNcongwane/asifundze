@@ -55,15 +55,6 @@ text =textArea.value;
 		</div>
 	</div>
 <br>
-
-
-
 </body>
 </html>
-
-
-
-
-
-
 </div>

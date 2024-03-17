@@ -3,6 +3,9 @@ include '../../core/check_login.php';
 @check_login();
 $_SESSION['course'] = 0;
 ?>
+<?php
+		include "nav.php";
+	?>
 
 <!DOCTYPE html>
 <html lang="en">
