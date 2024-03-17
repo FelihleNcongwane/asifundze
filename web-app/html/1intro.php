@@ -26,16 +26,17 @@ $videoFilePath = 'videos/htmlintro.mp4';
     <h1>Watch the Tutorial Video</h1>
     <p>Check out this video tutorial to get an understanding:</p>
     
-   
-    <video width="640" height="360" controls>
-        <source src="<?php echo $videoFilePath; ?>" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+   <div style="display: flex; justify-content: center;">
+        <video width="640" height="360" controls>
+            <source src="<?php echo $videoFilePath; ?>" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     <br>
     <br>
     <br>
     <br>
     <a href="chapter1.php" class="btn">Next</a>
-    
+   </div>
+
 </body>
 </html>
