@@ -37,7 +37,14 @@ while ($row = $result->fetch_assoc()) {
                                <h4 class="post__timestamp">'.$comment_time.'</h4>
                                <p class="post__body">'.$comment.'</p>
                                <div class="post__actions">
-                                   
+                                   <div class="button button--approve">
+                                       <i class="fa fa-thumbs-o-up"></i><i class="fa fa-thumbs-up solid"></i>
+                                       <span id="thumbs-up-count" class="like_count">'.$comment_likes.'</span>
+                                   </div>
+                                   <div class="button button--deny">
+                                       <i class="fa fa-thumbs-o-down"></i><i class="fa fa-thumbs-down solid"></i>
+                                       <span id="thumbs-down-count" class="like_count">'.$comment_dislikes.'</span>
+                                   </div>
                                    <div class="button button--fill comment-trigger">
                                        <span>View comments...</span>
                                    </div>
