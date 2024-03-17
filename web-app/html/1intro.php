@@ -35,8 +35,8 @@ $videoFilePath = 'videos/htmlintro.mp4';
     <br>
     <br>
     <br>
-    <a href="chapter1.php" class="btn">Next</a>
    </div>
+    <a href="chapter1.php" class="btn">Next</a>
 
 </body>
 </html>
