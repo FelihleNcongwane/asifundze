@@ -43,7 +43,7 @@ check_login();
             <a href=""><div id="css_course" class="course-card">
                 <span>CSS</span>
             </div></a>
-            <a href=""><div id="js_course" class="course-card">
+            <a href="../javascript/javascript_course/intro.php"><div id="js_course" class="course-card">
                 <span>JS</span>
             </div></a>
         </div>

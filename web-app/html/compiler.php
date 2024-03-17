@@ -1,3 +1,7 @@
+<?php
+include '../core/check_login.php';
+check_login();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <link rel="stylesheet" type="text/css" href="design.css">

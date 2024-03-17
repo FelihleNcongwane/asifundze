@@ -1,3 +1,8 @@
+<?php
+include '../../core/check_login.php';
+check_login();
+?>
+
 <!DOCTYPE html>
 <head>
 	<meta charset="utf-8">
@@ -31,5 +36,6 @@
 					<h1></h1>
 					<a href="Chapter3.php" class="btn">Next>></a>
 					</form>
+            </div>
 </body>
 </html>

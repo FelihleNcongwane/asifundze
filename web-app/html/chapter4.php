@@ -1,3 +1,7 @@
+<?php
+include '../core/check_login.php';
+check_login();
+?>
 <html>
 <head>
 	<meta charset="utf-8">
