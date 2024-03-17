@@ -62,5 +62,6 @@
         echo "Form submission error.";
     }
     ?>
+    <a href="finak .php" class="btn">Start>></a>
 </body>
 </html>

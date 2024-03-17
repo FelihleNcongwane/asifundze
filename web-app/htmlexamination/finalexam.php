@@ -97,5 +97,6 @@
 			</div>
         </form>
     </div>
+	<a href="htmlexams.php" class="btn">Start>></a>
 </body>
 </html>

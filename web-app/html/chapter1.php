@@ -102,7 +102,7 @@ echo '</pre>';
 			</div>
 		</div>
 		
-	</div>
+
 	<br>
 	<br>
 	<br>

@@ -35,9 +35,11 @@ include '../core/check_login.php';
      <h1>HTML Examination</h1>
       <p>The test contains 10 questions and there is no time limit.it's a nice way to see how much you learnt about HTML.</p>
 		  <p>At the end of the exam you will get certificate.</p>
-	 <p>Good Luck!!</p>
-	 <a href="htmlexams.php" class="btn">Start>></a>
-	</div> 	
+
+	 <div style="text-align: center;">
+    <p>Good Luck!!</p>
+    <a href="finalexam.php" class="btn">Start>></a>
+</div>
 <br>
 	
 </body>
