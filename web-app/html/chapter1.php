@@ -2,6 +2,7 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="design.css">
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
 </head>
 <body>
 	<?php

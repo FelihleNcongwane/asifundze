@@ -11,8 +11,10 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title> Discussion Page</title>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+       <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
       <link rel="stylesheet" href="../css/discussion.css">
-      <link rel="stylesheet" href="../css/styles.css">
+       <link rel="stylesheet" href="../css/styles.css">
        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
    </head>
    <body>
@@ -41,7 +43,7 @@
            <div class="response-group">
                <header id="heading">
                    <h2>
-                       <strong>Apple CEO</strong>
+                       <strong>HTML</strong>
                        <i class="fa fa-angle-right"></i>
                        <span class="header-dropdown-trigger">HTML Tags</span>
                    </h2>
@@ -61,7 +63,7 @@
                </div>
                <div class="response">
                    <div class="response__number" id="comment_counter"></div>
-                   <h1 class="response__title">Emma the Coder!</h1>
+                   <h1 class="response__title">Discussion Page</h1>
                    <div class="post-group" id="post-group-content">
                         <?php echo $posts; ?>
                    </div>
