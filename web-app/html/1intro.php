@@ -4,7 +4,9 @@ include '../core/check_login.php';
 ?>
 </div>
 			<div class="col-md-2 col-md-pull-9" style="margin-top:10px;">
-				<?php include "sidebar.php"; ?>
+            <?php
+		include "nav.php";
+	?>
 			</div>
 		</div>
 <?php

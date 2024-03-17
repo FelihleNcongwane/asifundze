@@ -4,6 +4,9 @@ include '../../core/check_login.php';
 ?>
 
 <!DOCTYPE html>
+<?php
+		include "nav.php";
+	?>
 <head>
 	<meta charset="utf-8">
 	<title>ASIFUNDZE-JavaScript</title>

@@ -13,7 +13,7 @@ include '../core/check_login.php';
 		include "nav.php";
 	?>
 
-<?php include "sidebar.php"; ?>
+
 <br>
 
 	<header id="head" class="secondary">

@@ -5,6 +5,9 @@ include '../../core/check_login.php';
 
 <!DOCTYPE html>
 <head>
+<?php
+		include "nav.php";
+	?>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="javascriptcourse.css">
     <link rel="icon" type="image/x-icon" href="../../assets/images/favicon.ico">

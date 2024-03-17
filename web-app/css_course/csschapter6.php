@@ -1,5 +1,8 @@
 <html>
 <head>
+<?php
+		include "nav.php";
+	?>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Asifundze: CSS Chapter Five </title>
     <link rel="stylesheet" href="csscourses.css">

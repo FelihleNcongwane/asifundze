@@ -3,6 +3,9 @@ include '../core/check_login.php';
 @check_login();
 ?>
 <!DOCTYPE html>
+<?php
+		include "nav.php";
+	?>
 <html lang="en">
 <head>
 	<meta charset="utf-8">

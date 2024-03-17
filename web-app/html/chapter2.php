@@ -16,7 +16,6 @@ include '../core/check_login.php';
 		include "nav.php";
 	?>
 
-<?php include "sidebar.php"; ?>
 	<header id="head" class="secondary">
 		<div class="container">
 			<div class="row">
