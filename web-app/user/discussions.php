@@ -44,17 +44,17 @@
        let comment = document.getElementById('comment-content').value;
 
        // update comment counter with ajax
-         $(document).ready(function(){
-              $.ajax({
-                url: '../functions/get_comment_count.php',
-                type: 'POST',
-                success: function(data){
-                     $('#comment_counter').html(data);
-                }
-              });
-         });
+       document.addEventListener('DOMContentLoaded', function(){
+           var xhr = new XMLHttpRequest();
+           xhr.open('POST', '../functions/get_comment_count.php', true);
+           xhr.onload = function() {
+               if (this.status === 200) {
+                   document.getElementById('comment_counter').innerHTML = this.responseText;
+               }
+           }
+           xhr.send();
+       });
 
    </script>
-   <script src="../js/script.js"></script>
    </body>
 </html>
