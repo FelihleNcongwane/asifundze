@@ -45,23 +45,23 @@
                <header id="heading">
                    <h2>
                        <strong>HTML</strong>
-                       <i class="fa fa-angle-right"></i>
-                       <span class="header-dropdown-trigger">HTML Tags</span>
+<!--                       <i class="fa fa-angle-right"></i>-->
+<!--                       <span class="header-dropdown-trigger">HTML Tags</span>-->
                    </h2>
                </header>
-               <div class="header-dropdown">
-                   <div class="panel">
-                       <ul>
-                           <li>
-                               <h2>Activity Title</h2>
-                               <span>2/4</span>
-                               <div class="progress">
-                                   <div class="progress__complete"></div>
-                               </div>
-                           </li>
-                       </ul>
-                   </div>
-               </div>
+<!--               <div class="header-dropdown">-->
+<!--                   <div class="panel">-->
+<!--                       <ul>-->
+<!--                           <li>-->
+<!--                               <h2>Activity Title</h2>-->
+<!--                               <span>2/4</span>-->
+<!--                               <div class="progress">-->
+<!--                                   <div class="progress__complete"></div>-->
+<!--                               </div>-->
+<!--                           </li>-->
+<!--                       </ul>-->
+<!--                   </div>-->
+<!--               </div>-->
                <div class="response">
                    <div class="response__number" id="comment_counter"></div>
                    <h1 class="response__title">Discussion Page</h1>
