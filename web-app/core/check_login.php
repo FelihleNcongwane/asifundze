@@ -1,7 +1,4 @@
 <?php
-
-include '../settings/connection.php';
-
 @session_start();
 function check_login(){
     if(!isset($_SESSION['uid'])){

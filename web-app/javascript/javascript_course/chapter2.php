@@ -37,7 +37,7 @@ include '../../core/check_login.php';
 					</ul>
 					<hr>
 					<h1></h1>
-					<a href="Chapter3.php" class="btn">Next>></a>
+					<a href="chapter3.php" class="btn">Next>></a>
 					</form>
             </div>
 </body>
