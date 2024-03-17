@@ -69,3 +69,8 @@ body
         box-shadow: 0 0 10px var(--bgColor);
     }
 }
+
+#progress{
+    display: flex;
+    justify-content: end;
+}
