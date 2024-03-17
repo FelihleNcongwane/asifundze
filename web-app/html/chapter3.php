@@ -85,11 +85,12 @@ echo '</pre>';
 			<div class="col-md-2 col-md-pull-9" style="margin-top:10px;">
 			</div>
 		</div>
-	
+		<?php include "sidebar.php"; ?>
 
 	<br>
 	<br>
 	<br>
+	
 <a href="chapter4.php" class="btn">Next</a>
 
 </body>

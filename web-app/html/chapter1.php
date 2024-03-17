@@ -103,8 +103,8 @@ echo '</pre>';
 			
 			</div>
 		</div>
-		
-	</div>
+		<?php include "sidebar.php"; ?>
+
 	<br>
 	<br>
 	<br>
