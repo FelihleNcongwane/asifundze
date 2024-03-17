@@ -1,5 +1,4 @@
 <?php
-    session_start();
     include '../settings/connection.php';
     include '../actions/get_comments_action.php';
     global $posts, $comment_count;
