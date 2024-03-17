@@ -1,8 +1,15 @@
+<?php
+include '../../core/check_login.php';
+check_login();
+?>
+
 <!DOCTYPE html>
 <head>
 	<meta charset="utf-8">
 	<title>ASIFUNDZE-JavaScript</title>
 	<link rel="stylesheet" href="javascriptcourse.css">
+    <link rel="icon" type="image/x-icon" href="../../assets/images/favicon.ico">
+
 </head>
 <body>
 	<header id="head" class="secondary">
@@ -29,5 +36,6 @@
 					<h1></h1>
 					<a href="Chapter3.php" class="btn">Next>></a>
 					</form>
+            </div>
 </body>
 </html>

@@ -1,10 +1,17 @@
+<?php
+include '../../core/check_login.php';
+check_login();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="javascriptcourse.css">
-<title>JavaScript Quiz</title>
+    <link rel="icon" type="image/x-icon" href="../../assets/images/favicon.ico">
+
+    <title>JavaScript Quiz</title>
 </head>
 <body>
 <form id="quizForm" action="CorrectAnswers.php" method = "POST">

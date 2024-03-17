@@ -9,6 +9,7 @@ check_login();
 	<title>ASIFUNDZE-JavaScript</title>
 	<link rel="stylesheet" href="javascriptcourse.css">
     <link rel="icon" type="image/x-icon" href="../../assets/images/favicon.ico">
+
 </head>
 <body>
 	<header id="head" class="secondary">
@@ -23,23 +24,8 @@ check_login();
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-9 col-md-push-2" style="margin-bottom:10px;">
-					<h1>What is JavaScript?</h1>
-					<p>JavaScript is a frontend language that provides dynamism for HTML and soemtimes CSS elements on a web page.<p>
-					<ul>
-						<li>Here are some things JavaScript can do </li>
-						<li>JavaScript Can Change HTML Content</li>
-						<li>JavaScript Can Change HTML Attribute Values
-						</li>
-						<li>JavaScript Can Change HTML Styles (CSS)
-						</li>
-						<li>JavaScript Can Show HTML Elements
-						</li>
-						
-					</ul>
-					<hr>
-					<h1></h1>
-					<h4><b></b></h4>
-					<a href="Chapter2.php" class="btn">Next>></a>
+					<h2>JavaScript Plays a huge role in front end development and is very important in creating dynamic and interactive websites </h2>
+					<a href="Chapter1.php" class="btn">Start Learning!</a>
 					</form>
             </div>
 </body>

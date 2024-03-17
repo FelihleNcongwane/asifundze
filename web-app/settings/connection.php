@@ -3,7 +3,7 @@
 $DATABASE = 'AF2024';
 $HOST = 'localhost';
 $USERNAME = 'root';
-$PASSWORD = '';
+$PASSWORD = 'cs341webtech';
 
 $conn = new mysqli($HOST, $USERNAME, $PASSWORD, $DATABASE);
 

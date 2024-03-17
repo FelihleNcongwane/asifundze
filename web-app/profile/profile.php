@@ -1,3 +1,8 @@
+<?php
+include '../core/check_login.php';
+check_login();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +16,7 @@
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/styles.css">
   <link rel="stylesheet" href="profile.css">
+  <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
 </head>
 <body>
   <div class="container">

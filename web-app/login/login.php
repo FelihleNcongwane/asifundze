@@ -1,5 +1,9 @@
 <?php
 session_start();
+if(isset($_SESSION['uid'])){
+    header("Location: ../user/dashboard.php");
+    exit();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,13 +13,13 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
     <title>ASIFUNDZE</title>
 </head>
 <body>
  <div class="wrapper">
     <nav class="nav">
         <div class="nav-logo">
-            <p><?php echo $_SESSION['error']; ?></p>
             <p>asifundze</p>
         </div>
         <div class="nav-menu" id="navMenu">

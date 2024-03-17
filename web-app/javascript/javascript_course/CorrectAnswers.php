@@ -1,3 +1,8 @@
+<?php
+include '../../core/check_login.php';
+check_login();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,6 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Results</title>
     <link rel="stylesheet" href="javascriptcourse.css">
+    <link rel="icon" type="image/x-icon" href="../../assets/images/favicon.ico">
+
 </head>
 <body>
     <h1>Quiz Results</h1>

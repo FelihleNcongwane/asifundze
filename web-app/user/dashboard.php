@@ -1,6 +1,5 @@
 <?php
 include '../core/check_login.php';
-session_start();
 check_login();
 ?>
 
@@ -12,6 +11,7 @@ check_login();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
     <title>dashboard</title>
 </head>
 <body>
@@ -40,7 +40,7 @@ check_login();
             <a href=""><div id="css_course" class="course-card">
                 <span>CSS</span>
             </div></a>
-            <a href=""><div id="js_course" class="course-card">
+            <a href="../javascript/javascript_course/intro.php"><div id="js_course" class="course-card">
                 <span>JS</span>
             </div></a>
         </div>
