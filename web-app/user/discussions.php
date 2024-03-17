@@ -1,7 +1,7 @@
 <?php
     session_start();
     include '../actions/get_comments_action.php';
-    global $posts;
+    global $posts, $comment_count;
 ?>
 
 <!DOCTYPE html>
@@ -37,9 +37,11 @@
                    </div>
                </div>
                <div class="response">
-                   <div class="response__number">1</div>
+                   <div class="response__number"><?php echo $comment_count;?></div>
                    <h1 class="response__title">Emma the Coder!</h1>
-                   <?php echo $posts;?>
+                   <div class="post-group">
+                        <?php echo $posts; ?>
+                   </div>
                </div>
            </div>
        </div>
