@@ -29,7 +29,7 @@ include '../core/check_login.php';
             </p>
             <p>
                 <label for="bio">Bio:</label>
-                <input type="bio" id="fullName" value="{{Bio}}">
+                <input type="text" id="bio" value="{{Bio}}">
             </p>
             <h1>Enrolled Courses</h1>
             <ul>
