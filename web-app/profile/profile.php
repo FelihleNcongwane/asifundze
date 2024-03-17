@@ -19,34 +19,37 @@ include '../core/check_login.php';
   <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
 </head>
 <body>
-  <div class="container">
+<div class="container">
     <div class="profile-info">
-
-    <div id="edit-profile-form" class="dialog-box">
-    <h1>User Profile</h1>
-    <p>
-        <label for="username">Username:</label>
-        <label for="username">Bio:</label>
-        <h1>Enrolled Courses</h1>
-        <ul>
-          <li>Course 1: HTML</li>
-          <li>Course 2: CSS</li>
-      </ul>
-        <input type="text" id="username" value="{{username}}">
-    </p>
-    <p>
-        <label for="password">Password:</label>
-        <input type="password" id="password">
-    </p>
-    <p>
-        <label for="fullName">Full Name:</label>
-        <input type="text" id="fullName" value="{{fullName}}">
-    </p>
-    <p class="buttons">
-        <a href="#" class="button" id="editProfileButton">Edit</a>
-        <a href="#/home/" class="button">Cancel</a>
-    </p>
-  </div>
+        <div id="edit-profile-form" class="dialog-box">
+            <h1>User Profile</h1>
+            <p>
+                <label for="username">Username:</label>
+                <input type="text" id="username" value="{{username}}">
+            </p>
+            <p>
+                <label for="bio">Bio:</label>
+                <textarea id="bio"></textarea>
+            </p>
+            <h1>Enrolled Courses</h1>
+            <ul>
+                <li>Course 1: HTML</li>
+                <li>Course 2: CSS</li>
+            </ul>
+            <p>
+                <label for="password">Password:</label>
+                <input type="password" id="password">
+            </p>
+            <p>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" value="{{fullName}}">
+            </p>
+            <p class="buttons">
+                <a href="#" class="button" id="editProfileButton">Edit</a>
+                <a href="#/home/" class="button">Cancel</a>
+            </p>
+        </div>
+    </div>
 </div>
 
 
