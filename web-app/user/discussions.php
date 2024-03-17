@@ -16,7 +16,6 @@
 
        <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
       <link rel="stylesheet" href="../css/discussion.css">
-       <link rel="stylesheet" href="../css/styles.css">
        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
    </head>
    <body>
