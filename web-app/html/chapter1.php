@@ -1,7 +1,6 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>eLearning - Free Educational Responsive Web Template </title>
 	<link rel="stylesheet" type="text/css" href="design.css">
 </head>
 <body>
