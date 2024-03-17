@@ -16,7 +16,7 @@
 		if(!$strconn)
 			echo "Connection failed".mysqli_connect_error();
 		else{}
-		session_start();
+		@session_start();
 		if(isset($_SESSION["username"]))
 		{
 			$username=$_SESSION["username"];
