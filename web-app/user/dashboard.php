@@ -37,7 +37,7 @@ include '../core/check_login.php';
             <a href="../html/1intro.php"><div id="html_course" class="course-card" >
                 <span>HTML</span>
             </div></a>
-            <a href=""><div id="css_course" class="course-card">
+            <a href="../css_course/csscourse.php"><div id="css_course" class="course-card">
                 <span>CSS</span>
             </div></a>
             <a href="../javascript/javascript_course/intro.php"><div id="js_course" class="course-card">
