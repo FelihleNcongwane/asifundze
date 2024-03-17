@@ -14,19 +14,6 @@ include '../../core/check_login.php';
 </head>
 
 <body>
-    <?php
-        include "nav.php";
-        $strconn = mysqli_connect("localhost", "root", "", "project"); 
-        if(!$strconn)
-            echo "Connection failed" . mysqli_connect_error();
-        else {}
-        @session_start();
-        if(isset($_SESSION["username"])) {
-            $username = $_SESSION["username"];
-        } else {
-            echo 'session not started';
-        }
-    ?>
 
     <header id="head" class="secondary">
         <div class="container">

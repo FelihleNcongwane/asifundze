@@ -44,6 +44,6 @@ include '../../core/check_login.php';
 					<hr>
 					<h1></h1>
 					<h4><b></b></h4>
-					<a href="Chapter5.php" class="btn">Next>></a>
+					<a href="chapter5.php" class="btn">Next>></a>
 </body>
 </html>

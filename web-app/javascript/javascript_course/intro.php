@@ -26,7 +26,7 @@ include '../../core/check_login.php';
 		<div class="row">
 			<div class="col-md-9 col-md-push-2" style="margin-bottom:10px;">
 					<h2>JavaScript Plays a huge role in front end development and is very important in creating dynamic and interactive websites </h2>
-					<a href="Chapter1.php" class="btn">Start Learning!</a>
+					<a href="chapter1.php" class="btn">Start Learning!</a>
 					</form>
             </div>
 </body>
