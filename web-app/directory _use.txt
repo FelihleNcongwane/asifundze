@@ -1,9 +1,0 @@
-actions: files that process user requests/ actions.
-css: for all stylesheets.
-db: contains the database connection and the models.
-images: contains the pictures used in the website.
-js: for all javascript files.
-login: contains the pages related to login (login, register, etc).
-settings: contains the files that are used to configure the website and its connections.
-user: contains pages that can only be accessed by the user when they are logged in.
-view: contains the frontend pages that are available to the user when they haven't logged in.
