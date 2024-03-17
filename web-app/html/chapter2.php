@@ -78,8 +78,6 @@ echo '</pre>';
 		
 	</div style="text-align: center;">>
 	<br>
-	<br>
-	<br>
 <a href="chapter3.php" class="btn">Next</a>
 <div>
 </html>

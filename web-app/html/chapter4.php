@@ -144,8 +144,6 @@ echo '</pre>';
 		</div>
 	</div>
 	<br>
-	<br>
-	<br>
 
 	<?php include "sidebar.php"; ?>
 <a href="chapter5.php" class="btn">Next</a>
