@@ -122,7 +122,7 @@ body
 }
 
 .nav_menu a:hover {
-    color: var(--color-bg2);
+    color: navajowhite;
 }
 
 .points.marked
