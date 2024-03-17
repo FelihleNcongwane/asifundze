@@ -21,16 +21,35 @@ include '../core/check_login.php';
 <body>
   <div class="container">
     <div class="profile-info">
-      <h1>User Profile</h1>
-      <p><strong>Name:</strong> John Doe</p>
-      <p><strong>Bio:</strong> Student of Ashesi University</p>
-      <h1>Enrolled Courses</h1>
-       <ul>
+
+    <div id="edit-profile-form" class="dialog-box">
+    <h1>User Profile</h1>
+    <p>
+        <label for="username">Username:</label>
+        <label for="username">Bio:</label>
+        <h1>Enrolled Courses</h1>
+        <ul>
           <li>Course 1: HTML</li>
           <li>Course 2: CSS</li>
       </ul>
-    </div>
-    
+        <input type="text" id="username" value="{{username}}">
+    </p>
+    <p>
+        <label for="password">Password:</label>
+        <input type="password" id="password">
+    </p>
+    <p>
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" value="{{fullName}}">
+    </p>
+    <p class="buttons">
+        <a href="#" class="button" id="editProfileButton">Edit</a>
+        <a href="#/home/" class="button">Cancel</a>
+    </p>
+  </div>
+</div>
+
+
     <div class="profile">
       <img src="https://via.placeholder.com/460x345" alt="Profile Image" width="460" height="345">
     </div>
@@ -68,3 +87,24 @@ include '../core/check_login.php';
   </footer>
 </body>
 </html>
+
+
+<div id="edit-profile-form" class="dialog-box">
+    <h1>Edit Profile</h1>
+    <p>
+        <label for="username">Username:</label>
+        <input type="text" id="username" value="{{username}}">
+    </p>
+    <p>
+        <label for="password">Password:</label>
+        <input type="password" id="password">
+    </p>
+    <p>
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" value="{{fullName}}">
+    </p>
+    <p class="buttons">
+        <a href="#" class="button" id="editProfileButton">Edit</a>
+        <a href="#/home/" class="button">Cancel</a>
+    </p>
+</div>
