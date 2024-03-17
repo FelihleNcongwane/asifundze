@@ -57,7 +57,7 @@ CREATE TABLE `que` (
 
 
 CREATE TABLE `ans` (
-  `ProfessionalID` int(6) NOT NULL,
+  `ExpertID` int(6) NOT NULL,
   `UserID` int(6) NOT NULL,
   `QueID` int(10) NOT NULL,
   `Question` varchar(500) NOT NULL,
