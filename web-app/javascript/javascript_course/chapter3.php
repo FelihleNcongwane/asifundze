@@ -1,6 +1,7 @@
 <?php
 include '../../core/check_login.php';
 @check_login();
+$_SESSION['course'] = 0;
 ?>
 
 <!DOCTYPE html>
