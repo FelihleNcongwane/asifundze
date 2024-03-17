@@ -15,7 +15,6 @@
       <link rel="stylesheet" href="../css/styles.css">
        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
    </head>
-   <body>
    <nav class="nav">
        <div class="nav-logo">
            <p>asifundze</p>
@@ -35,6 +34,8 @@
            <i class="bx bx-menu" onclick="myMenuFunction()"></i>
        </div>
    </nav>
+   <body>
+
    <main class="cd__main">
        <div class="container">
            <div class="response-group">
