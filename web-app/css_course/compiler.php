@@ -1,3 +1,8 @@
+<?php
+@session_start();
+
+$_SESSION['course'] = 0;
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

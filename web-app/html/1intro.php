@@ -1,6 +1,7 @@
 <?php
 include '../core/check_login.php';
 @check_login();
+$_SESSION['course'] = 1;
 ?>
 </div>
 			<div class="col-md-2 col-md-pull-9" style="margin-top:10px;">
