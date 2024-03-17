@@ -36,7 +36,7 @@ if (isset($_POST['login-submit'])){
             $_SESSION['uid'] = $row['id'];
             $_SESSION['first_name'] = $row['first_name'];
             $_SESSION['last_name'] = $row['last_name'];
-            header("Location: ../user/discussions.php");
+            header("Location: ../user/dashboard.html");
         }
     }
     exit();
