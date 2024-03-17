@@ -1,3 +1,9 @@
+<?php
+include '../core/check_login.php';
+session_start();
+check_login();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,14 +17,16 @@
 
 </head>
 <body>
-    <nav id="navbar">
+    <nav id="navbar" class="navbar">
         <div class="container nav__container">
             <a href="../index.html"><h4>asifundze</h4></a>
-            <ul class="nav__menu">
-                <li><a href="">Home</a></li>
-                <li><a href="../view/about.html">About</a></li>
-                <li><a href="../view/contact.html">Contact</a></li>
-                <li><a href="../login/login.php" class="btn btn-primary">Join Now</a><li>
+            <ul class="nav_menu">
+                <li>
+                    <a href="">
+                        <img height="80px" src="../assets/images/profile.svg" alt="profile">
+                    </a>
+                </li>
+                <?php echo $_SESSION['first_name'] . " " . $_SESSION['last_name']; ?>
             </ul>
             <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
             <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
