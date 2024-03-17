@@ -47,10 +47,10 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav mainNav">
                     <li class="active">
-                        <a href="index.php">Home</a>
+                        <a href="../login/login.php">Home</a>
                     </li>
                     <li>
-                        <a href="../index.php">Logout</a>
+                        <a href="../actions/logout_action.php">Logout</a>
                     </li>
                 </ul>
             </div>
