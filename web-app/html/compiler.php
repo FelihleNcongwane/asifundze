@@ -5,7 +5,7 @@ $_SESSION['course'] = 1;
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
+<link rel="stylesheet" type="text/css" href="design.css">
 <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
 
 <head>
@@ -57,9 +57,7 @@ text =textArea.value;
 		</div>
 	</div>
 <br>
-	<?php
-		include "footer.php";
-	?>
+
 
 </body>
 </html>
