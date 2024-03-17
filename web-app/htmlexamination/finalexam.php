@@ -26,6 +26,7 @@
                 <label><input type="radio" name="q2" value="D"> D) &lt;url&gt;</label>
            
 
+<<<<<<< HEAD
             
                 <legend>3) Which tag is used to create a numbered list in HTML?</legend>
                 <label><input type="radio" name="q3" value="A"> A) &lt;ol&gt;</label>
@@ -33,6 +34,9 @@
                 <label><input type="radio" name="q3" value="C"> C) &lt;list&gt;</label>
                 <label><input type="radio" name="q3" value="D"> D) &lt;numberedlist&gt;</label>
             
+=======
+	
+>>>>>>> e3e135cb786b29786cc8ac09aff142747f41ba6e
 
             
                 <legend>4) What is the correct HTML for inserting an image?</legend>
