@@ -9,6 +9,7 @@
 	<?php
 		include "nav.php";
 	?>
+	<?php include "sidebar.php"; ?>
 	<header id="head" class="secondary">
 		<div class="container">
 			<div class="row">
@@ -74,10 +75,14 @@ echo '</pre>';
 
 			</div>
 			<div class="col-md-2 col-md-pull-9" style="margin-top:10px;">
-				<?php include "sidebar.php"; ?>
 			</div>
 		</div>
-	</div>
+	
+
+	<br>
+	<br>
+	<br>
+<a href="chapter4.php" class="btn">Next</a>
 
 </body>
 </html>

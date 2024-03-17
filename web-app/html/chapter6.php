@@ -165,9 +165,10 @@ echo '</pre>';
 		</div>
 	</div>
 
-	<?php
-		include "footer.php";
-	?>
+	<br>
+	<br>
+	<br>
+<a href="../htmlexamination/index.php" class="btn">Next</a>
 </body>
 </html>
 

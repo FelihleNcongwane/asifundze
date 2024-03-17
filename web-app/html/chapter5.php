@@ -8,6 +8,7 @@
 	<?php
 		include "nav.php";
 	?>
+	<?php include "sidebar.php"; ?>s
 	<header id="head" class="secondary">
 		<div class="container">
 			<div class="row">
@@ -85,8 +86,11 @@ echo '</pre>';
 		</div>
 	</div>
 
-	<?php
-		include "footer.php";
-	?>
+	
+
+<br>
+	<br>
+	<br>
+<a href="chapter6.php" class="btn">Next</a>
 </body>
 </html>
