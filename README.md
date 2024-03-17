@@ -90,6 +90,6 @@ We welcome contributions from the community to improve our platform. If you have
 
 ## Support
 
-For any assistance, please contact our support team at victor.quagraine@ashesi.edu.gh.
+For any assistance, please contact our support team at victor.quagraine@ashesi.edu.gh or emmanuel.okine@ashesi.edu.gh.
 
 
