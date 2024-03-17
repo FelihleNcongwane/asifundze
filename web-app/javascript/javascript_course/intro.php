@@ -1,4 +1,5 @@
 <?php
+include '../../settings/connection.php';
 include '../../core/check_login.php';
 @check_login();
 ?>
