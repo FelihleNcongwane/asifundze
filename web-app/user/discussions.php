@@ -40,21 +40,6 @@
        </div>
    </main>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-   <script>
-       let comment = document.getElementById('comment-content').value;
 
-       // update comment counter with ajax
-       document.addEventListener('DOMContentLoaded', function(){
-           var xhr = new XMLHttpRequest();
-           xhr.open('POST', '../functions/get_comment_count.php', true);
-           xhr.onload = function() {
-               if (this.status === 200) {
-                   document.getElementById('comment_counter').innerHTML = this.responseText;
-               }
-           }
-           xhr.send();
-       });
-
-   </script>
    </body>
 </html>
