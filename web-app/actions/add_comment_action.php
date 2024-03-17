@@ -3,7 +3,7 @@
 include '../settings/connection.php';
 global $conn;
 
-session_start();
+@session_start();
 $user_id = $_SESSION['uid'];
 if(isset($_POST['comment-submit'])){
     if(empty($_POST['comment-content'])) {

@@ -3,7 +3,7 @@
 include '../settings/connection.php';
 global $conn;
 
-session_start();
+@session_start();
 
 
 $sql = "SELECT * FROM discussions";

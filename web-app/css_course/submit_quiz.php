@@ -1,17 +1,10 @@
-<?php
-include '../../core/check_login.php';
-@check_login();
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Results</title>
-    <link rel="stylesheet" href="javascriptcourse.css">
-    <link rel="icon" type="image/x-icon" href="../../assets/images/favicon.ico">
-
+    <link rel="stylesheet" href="csscourses.css">
 </head>
 <body>
     <h1>Quiz Results</h1>
@@ -19,21 +12,17 @@ include '../../core/check_login.php';
     <?php
     // Define correct answers
     $correct_answers = array(
-        'q1' => 'a',
-        'q2' => 'a',
-        'q3' => 'c',
-        'q4' => 'd',
-        'q5' => 'a',
-        'q6' => 'c',
-        'q7' => 'c',
-        'q8' => 'd',
-        'q9' => 'b',
-        'q10' => 'a',
-        'q11' => 'b',
-        'q12' => 'b',
-        'q13' => 'a',
-        'q14' => 'b',
-        'q15' => 'c'
+        'q1' => 'A',
+        'q2' => 'B',
+        'q3' => 'D',
+        'q4' => 'B',
+        'q5' => 'B',
+        'q6' => 'B',
+        'q7' => 'C',
+        'q8' => 'B',
+        'q9' => 'A',
+        'q10' => 'B',
+        'q11' => 'A'
     );
 
     // Check if the form is submitted

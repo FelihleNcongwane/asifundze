@@ -1,16 +1,9 @@
-<?php
-include '../core/check_login.php';
-@check_login();
-?>
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" type="text/css" href="design.css">
-<link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
-
 <head>
 	<meta charset="utf-8">
-
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="csscourses.css">
 </head>
 <?php
 		include "nav.php";
@@ -34,9 +27,9 @@ include '../core/check_login.php';
 			<div class="col-md-6">
 			<textarea rows="10" cols="70" class="form-control,text_edit" 
 			placeholder="Run Code here" name="message" id="my_text"
-			maxlength="999" style="resize:none;margin-top:10px"></textarea>
+			maxlength="999" style="resize:none;margin-top:10px; margin-left:30em"></textarea>
 			<br><br>		
-			<input type="submit" value="Run" class= "btn" onclick="view_text()">
+			<input type="submit" value="Run" class= "btn" onclick="view_text()" style="margin-left:48em">
 <!-- Empty div to put the text in -->
 <div id="view_text">
 <script type="text/javascript">
@@ -56,9 +49,8 @@ text =textArea.value;
 		</div>
 	</div>
 <br>
-	<?php
-		include "footer.php";
-	?>
+
+
 
 </body>
 </html>
@@ -68,3 +60,4 @@ text =textArea.value;
 
 
 
+</div>

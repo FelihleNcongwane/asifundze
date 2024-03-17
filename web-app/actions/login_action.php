@@ -3,7 +3,7 @@
 include '../settings/connection.php';
 global $conn;
 
-session_start();
+@session_start();
 $_SESSION['error'] = "";
 if (isset($_POST['login-submit'])){
     $email = $_POST['login-email'];

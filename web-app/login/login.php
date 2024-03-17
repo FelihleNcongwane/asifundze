@@ -1,5 +1,5 @@
 <?php
-session_start();
+@session_start();
 if(isset($_SESSION['uid'])){
     header("Location: ../user/dashboard.php");
     exit();

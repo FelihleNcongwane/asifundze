@@ -3,7 +3,7 @@
 include '../settings/connection.php';
 global $conn;
 
-session_start();
+@session_start();
 if(isset($_POST['reply-submit'])){
     $uid = $_SESSION['uid'];
     $post_id = $_POST['post_id'];

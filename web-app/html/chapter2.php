@@ -1,6 +1,6 @@
 <?php
-include '../core/check_login.php';
-check_login();
+include '../core/.php';
+@check_login();
 ?>
 <html>
 <head>
