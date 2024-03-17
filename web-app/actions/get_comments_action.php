@@ -6,14 +6,14 @@ global $conn;
 session_start();
 
 
-$sql = "SELECT * FROM Discussions";
+$sql = "SELECT * FROM discussions";
 
 $result = $conn->query($sql);
 $posts = "";
 
 while ($row = $result->fetch_assoc()) {
     $uid = $row['user_id'];
-    $user_sql = "SELECT * FROM Users WHERE id =$uid";
+    $user_sql = "SELECT * FROM users WHERE id =$uid";
     $user = $conn->query($user_sql);
     $user = $user->fetch_assoc();
     $full_name = $user['first_name'] . " " . $user['last_name'];

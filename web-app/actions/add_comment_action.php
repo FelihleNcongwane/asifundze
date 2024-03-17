@@ -13,7 +13,7 @@ if(isset($_POST['comment-submit'])){
     }
     $comment = $_POST['comment-content'];
 
-    $sql = "INSERT INTO Discussions (user_id, post) VALUES ($user_id, '$comment')";
+    $sql = "INSERT INTO discussions (user_id, post) VALUES ($user_id, '$comment')";
 
     if($conn->query($sql)){
         header('Location: ../user/discussions.php');
