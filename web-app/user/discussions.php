@@ -12,9 +12,29 @@
       <title> Discussion Page</title>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
       <link rel="stylesheet" href="../css/discussion.css">
+      <link rel="stylesheet" href="../css/styles.css">
        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
    </head>
    <body>
+   <nav class="nav">
+       <div class="nav-logo">
+           <p>asifundze</p>
+       </div>
+       <div class="nav-menu" id="navMenu">
+           <ul>
+               <li><a href="../index.html" class="link">Home</a></li>
+               <li><a href="../view/about.html" class="link">About Us</a></li>
+               <li><a href="../view/contact.html" class="link">Contact Us</a></li>
+           </ul>
+       </div>
+       <div class="nav-button">
+           <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+           <button class="btn" id="registerBtn" onclick="register()">Sign Up</button>
+       </div>
+       <div class="nav-menu-btn">
+           <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+       </div>
+   </nav>
    <main class="cd__main">
        <div class="container">
            <div class="response-group">
