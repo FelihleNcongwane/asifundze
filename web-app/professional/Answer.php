@@ -6,7 +6,7 @@
 <body>
 	<?php
 		include "nav.php";
-		$strconn=mysqli_connect("localhost","root","","project");
+		$strconn=mysqli_connect("localhost","root","","AF2024");
 		if(!$strconn)
 			echo "Connection failed".mysqli_connect_error();
 		else{}
@@ -66,7 +66,7 @@
 			while($row = mysqli_fetch_array($result1))
 			{
 				$eid = $row[0];
-				//echo $eid;
+		
 			}
 			$answer=$_POST['message'];
 			$query = "INSERT INTO ans(ExpertID,UserID,QueID,Question,Answer) VALUES($eid,$id,$qid,'$que','$answer')";

@@ -1,8 +1,20 @@
+#info-cards{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
 .course-card {
-    background: var(--color-bg);
-    padding: 5.6rem;
+    font-size: 3vw;
+    background: var(--color-bg2);
+    width: 12vw;
+    height: 12vw;
+    margin: 2rem;
     border-radius: 1rem;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition: var(--transition);
 }
 
@@ -26,9 +38,10 @@
 
 #courses{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
+    /*flex-wrap: wrap;*/
+    width: 90vw;
+    height: 18.75rem;
+    justify-content: center;
 }
 
 body
@@ -84,7 +97,33 @@ body
     
 }
 
+.navbar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background: var(--color-primary);
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
 
+.nav_menu {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav_menu a {
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.nav_menu a:hover {
+    color: navajowhite;
+}
 
 .points.marked
 {
@@ -106,7 +145,10 @@ body
     }
 }
 
-#progress, #courses{
+#progress{
     display: flex;
-    justify-content: end;
+    /*flex-wrap: wrap;*/
+    width: 90vw;
+    justify-content: center;
+
 }

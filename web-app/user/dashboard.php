@@ -1,3 +1,9 @@
+<?php
+include '../core/check_login.php';
+session_start();
+check_login();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,17 +17,38 @@
 
 </head>
 <body>
-    <div>
+    <nav id="navbar" class="navbar">
+        <div class="container nav__container">
+            <a href="../index.html"><h4>asifundze</h4></a>
+            <ul class="nav_menu">
+                <li>
+
+                    <a href="../profile/profile.html">
+                        <img height="80px" src="../assets/images/profile.svg" alt="profile">
+                    </a>
+                    <a href="../profile/profile.html">
+                        <span><?php echo $_SESSION['first_name'] . " " . $_SESSION['last_name']; ?></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../actions/logout_action.php">Logout</a>
+                </li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <div id="info-cards">
         <div id="courses">
-            <div id="html_course" class="course-card">
+            <a href="../html/1intro.php"><div id="html_course" class="course-card" >
                 <span>HTML</span>
-            </div>
-            <div id="css_course" class="course-card">
+            </div></a>
+            <a href=""><div id="css_course" class="course-card">
                 <span>CSS</span>
-            </div>
-            <div id="js_coursel" class="course-card">
+            </div></a>
+            <a href=""><div id="js_course" class="course-card">
                 <span>JS</span>
-            </div>
+            </div></a>
         </div>
         <div id="progress">
             <div class="box">
