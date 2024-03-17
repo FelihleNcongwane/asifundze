@@ -1,6 +1,3 @@
-/* POPPINS FONT */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
 *{  
     margin: 0;
     padding: 0;
@@ -29,7 +26,7 @@
 }
 
 body{
-    background: var(--color-bg);
+    background: var(--color-bg2);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -40,7 +37,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 110vh;
-    background: var(--color-bg2);
+    background: var(--color-bg1);
 }
 .nav{
     position: fixed;

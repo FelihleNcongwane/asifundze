@@ -22,7 +22,6 @@ session_start();
             <ul>
                 <li><a href="../index.html" class="link">Home</a></li>
                 <li><a href="../view/about.html" class="link">About Us</a></li>
-                <li><a href="" class="link">Courses</a></li>
                 <li><a href="../view/contact.html" class="link">Contact Us</a></li>
             </ul>
         </div>
