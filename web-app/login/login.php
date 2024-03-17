@@ -15,7 +15,6 @@ session_start();
  <div class="wrapper">
     <nav class="nav">
         <div class="nav-logo">
-            <p><?php echo $_SESSION['error']; ?></p>
             <p>asifundze</p>
         </div>
         <div class="nav-menu" id="navMenu">

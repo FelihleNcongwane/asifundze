@@ -1,6 +1,5 @@
 <?php
 include '../core/check_login.php';
-session_start();
 check_login();
 ?>
 
