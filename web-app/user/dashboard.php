@@ -21,7 +21,8 @@ include '../core/check_login.php';
             <ul class="nav_menu">
                 <li>
                     <div>
-                        <?php echo $_SESSION['first_name'] . " " . $_SESSION['last_name']; ?>
+                    <a href="../profile/profile.php"><?php echo $_SESSION['first_name'] . " " . $_SESSION['last_name']; ?>
+                    </a>
                     </div>
                 </li>
                 <li>
