@@ -27,8 +27,8 @@ $videoFilePath = 'videos/htmlintro.mp4';
     <p>Check out this video tutorial to get an understanding:</p>
     
    <div style="display: flex; justify-content: center;">
-        <video width="640" height="360" controls>
-            <source src="<?php echo $videoFilePath; ?>" type="video/mp4" width="1280px" height="720px">
+        <video width="1280" height="720" controls>
+            <source src="<?php echo $videoFilePath; ?>" type="video/mp4" >
             Your browser does not support the video tag.
         </video>
     <br>
