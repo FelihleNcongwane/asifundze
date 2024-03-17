@@ -15,6 +15,7 @@
         }
     </style>
 <ul>
+    <li><a href="../user/dashboard.php"> Homepage <br></a><br></li>
     <li><a href="1intro.php">Introduction:HTML <br></a><br></li>
 	<li><a href="chapter1.php">Chapter 1:What is HTML?</a><br></li>
 	<li><a href="chapter2.php">Chapter 2:Write <br>HTML Using Notepad or TextEdit</a><br></li>
