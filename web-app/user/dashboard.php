@@ -13,8 +13,6 @@ check_login();
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/dashboard.css">
     <title>dashboard</title>
-
-
 </head>
 <body>
     <nav id="navbar" class="navbar">
@@ -23,7 +21,6 @@ check_login();
             <ul class="nav_menu">
                 <li>
                     <div>
-                        <img height="40px" src="../assets/images/profile.svg" alt="profile" href="../profile/profile.html">
                         <?php echo $_SESSION['first_name'] . " " . $_SESSION['last_name']; ?>
                     </div>
                 </li>
