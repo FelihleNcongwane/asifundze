@@ -1,6 +1,6 @@
 <?php
     include '../core/check_login.php';
-    check_login();
+    @check_login();
     include '../settings/connection.php';
     include '../actions/get_comments_action.php';
     global $posts, $comment_count;
